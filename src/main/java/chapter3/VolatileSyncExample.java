@@ -47,7 +47,7 @@ public class VolatileSyncExample {
                     vse.getAndIncrement();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
-                    ;
+
                 }
             }
         });
