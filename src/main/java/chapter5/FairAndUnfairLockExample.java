@@ -11,6 +11,9 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.stream.Collectors;
 
+/**
+ * 公平锁与非公平锁
+ */
 public class FairAndUnfairLockExample {
     //公平锁
     private static FairOrUnfairLock fairLock = new FairOrUnfairLock(true);

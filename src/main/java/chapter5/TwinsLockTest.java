@@ -7,6 +7,9 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 
+/**
+ * 利用同步器自定义锁
+ */
 public class TwinsLockTest {
     static final Lock twinsLock = new TwinsLock();
     static CountDownLatch start = new CountDownLatch(1);
